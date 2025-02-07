@@ -6,7 +6,7 @@ function App() {
     <div className="min-h-screen flex flex-col">
       <BrowserRouter>
         <Routes>
-          <Route path="/new" element={<Newtask />} />
+          <Route path="/" element={<Newtask />} />
         </Routes>
       </BrowserRouter>
     </div>
